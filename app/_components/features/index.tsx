@@ -7,7 +7,7 @@ import FraudDetection from "./_components/fraud-detection";
 const Features = () => {
   return (
     <section className=" py-25  min-[1240px]:py-37.5 ">
-      <div className="container  max-w-212.5 min-[1240px]:max-w-310 px-5 min-[580px]:px-14 mx-auto w-full text-secondary space-y-16  min-[580px]:space-y-32">
+      <div className="container  max-w-212.5 min-[1240px]:max-w-310 max-xl:px-10 min-[580px]:px-14 mx-auto w-full text-secondary space-y-16  min-[580px]:space-y-32">
         <FeaturesHeader />
         <main className="space-y-12.5  min-[1240px]:space-y-50">
           <SeamlessPayments />
