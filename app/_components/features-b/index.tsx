@@ -7,7 +7,7 @@ const FeaturesB = () => {
   return (
     <section className="py-37.5 max-[1240px]:py-25 relative bg-[#e8f5fc]">
       <Image src="https://paystack.com/assets/img/patterns/checked-pattern-blue.png" className="w-full h-full absolute top-0 left-0 z-0 opacity-5" alt="" width={100} height={100} />
-      <div className="container max-w-212.5 min-[1240px]:max-w-310 px-5 min-[580px]:px-14 mx-auto w-full text-secondary space-y-12.5 relative z-10 ">
+      <div className="container max-w-212.5 min-[1240px]:max-w-310 px-5 min-[580px]:px mx-auto w-full text-secondary space-y-12.5 relative z-10 ">
         <header className=" max-w-160 space-y-5">
           <h2 className="text-h-3 max-[580px]:leading-10  min-[580px]:text-h-2 font-bold leading-12 font-segoe-ui ">
             Trusted by 200,000+ businesses

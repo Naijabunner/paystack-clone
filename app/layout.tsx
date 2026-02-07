@@ -30,15 +30,15 @@ export const graphik = localFont({
   variable: "--font-graphik", // optional (great for Tailwind)
 });
 
-export const boring = localFont({
+export const boing = localFont({
   src: [
     {
-      path: "../public/assets/fonts/boring.ttf",
-      weight: "400",
+      path: "../public/assets/fonts/Boing.woff",
+      weight: "600",
       style: "normal",
     },
   ],
-  variable: "--font-boring", // optional (great for Tailwind)
+  variable: "--font-boing", // optional (great for Tailwind)
 });
 
 export const metadata: Metadata = {
@@ -54,7 +54,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${graphik.variable} ${boring.variable} antialiased font-graphik`}
+        className={` ${graphik.variable} ${boing.variable} antialiased font-graphik overflow-x-hidden`}
       >
         <TopNavigation />
         {children}

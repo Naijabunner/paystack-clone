@@ -23,10 +23,10 @@ const SeamlessPayments = () => {
             </div>
             <div className="right-section flex-1 flex flex-col gap-y-20 max-w-125 ">
                 <div className="top space-y-4.75">
-                    <h3 className=" text-3xl min-[580px]:text-h-3 leading-7 font-bold  min-[580px]:leading-11 pb-1.25">
+                    <h3 className=" text-[clamp(26px,2.5vw,36px)] leading-7 font-bold  min-[580px]:leading-11 pb-1.25">
                         Delight customers with a seamless payments experience
                     </h3>
-                    <p className=" max-[580px]:text-body-m text-[19px] leading-normal ">
+                    <p className=" text-[clamp(16px,1.5vw,19px)] leading-normal ">
                         Give your customers the gift of modern, frictionless, painless payments. Integrate
                         Paystack once and let your customers pay you however they want.
                     </p>
@@ -39,10 +39,10 @@ const SeamlessPayments = () => {
                     </ul>
                 </div>
                 <div className=" space-y-4.75 bottom">
-                    <p className=" text-3xl min-[580px]:text-h-3 leading-7 font-bold  min-[580px]:leading-11 pb-1.25 ">
+                    <p className=" text-[clamp(26px,2.5vw,36px)] leading-7 font-bold  min-[580px]:leading-11 pb-1.25 ">
                         Enjoy phenomenal transaction success rates
                     </p>
-                    <p className=" max-[580px]:text-body-m text-[19px] leading-normal ">
+                    <p className=" text-[clamp(16px,1.5vw,19px)] leading-normal ">
                         We automatically route payments through the most optimal channels, ensuring the highest
                         transaction success rates in the market.
                     </p>

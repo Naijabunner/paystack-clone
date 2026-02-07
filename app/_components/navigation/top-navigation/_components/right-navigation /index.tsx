@@ -38,7 +38,7 @@ const NAV_ITEMS: (
 const RightNavigation = () => {
     return (
         <div className="flex items-center gap-5">
-            <ul className="flex items-center gap-5">
+            <ul className="flex items-center gap-5 max-md:hidden">
                 {NAV_ITEMS.map((item, index) => {
                     if (item.type === 'small') {
                         return <SmallNavigationItem key={index} title={item.title} links={item.links} href={item.href} />
@@ -54,7 +54,7 @@ const RightNavigation = () => {
                     }
                 })}
             </ul>
-            <Button className="  bg-[#3BB75E] text-white text-[15px] font-semibold">Create a free account</Button>
+            <Button className="  max-md:hidden  bg-[#3BB75E] text-white text-[15px] font-semibold">Create a free account</Button>
             <NavDropdownCountry />
 
         </div>

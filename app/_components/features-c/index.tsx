@@ -117,19 +117,19 @@ const brands = [
 const FeaturesC = () => {
   return (
     <section className="py-[150px] max-[580px]:py-[100px]">
-      <div className="container max-w-[850px] min-[1260px]:max-w-310 max-[580px]:px-5 px-14 mx-auto w-full text-secondary space-y-[50px]">
+      <div className="container max-w-[850px] min-[1260px]:max-w-310 max-[580px]:px-5 px mx-auto w-full text-secondary space-y-[50px]">
         <header className=" max-w-[640px] space-y-5">
-          <h2 className="text-h-3 max-[580px]:leading-10  min-[580px]:text-h-2 font-bold leading-12 font-segoe-ui ">
+          <h2 className=" max-[580px]:leading-10 text-[clamp(33px,2.5vw,45px)]  min-[580px]:text-h-2 font-bold leading-12 font-segoe-ui ">
             Powering growth for amazing businesses
           </h2>
-          <p className=" text-h-6 max-[580px]:text-body-l ">
+          <p className=" text-[clamp(16px,1.3vw,20px)] ">
             Paystack is a growth engine for a new generation of innovative, forward-looking
             organizations operating in Africa.
           </p>
         </header>
         <main className="flex flex-wrap  gap-x-10  max-[580px]:justify-start items-center ">
           {brands.map((brand) => (
-            <div key={brand} className=" h-[108px] w-[150px] flex items-center justify-center ">
+            <div key={brand} className=" h-[108px] w-[150px] max-md:w-[50px] max-md:h-[50px] flex items-center justify-center ">
               {/* <Logo className="grayscale-100 min-h-[100px] max-w-[150px] mb-[5px]" /> */}
               <Image src={brand} alt="brand" width={100} height={28} className="grayscale-100 object-contain m-auto " />
             </div>
