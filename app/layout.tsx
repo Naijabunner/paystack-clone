@@ -34,8 +34,8 @@ export const boing = localFont({
   src: [
     {
       path: "../public/assets/fonts/Boing.woff",
-      weight: "600",
-      style: "normal",
+      weight: "800",
+      style: "extra-bold",
     },
   ],
   variable: "--font-boing", // optional (great for Tailwind)

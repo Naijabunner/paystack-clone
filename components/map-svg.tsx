@@ -35,25 +35,29 @@ const MapSvg = () => {
             className=""
           ></path>
         </g>
-        {/*  */}
-          <g className="map-pointer" id="united-states">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(159 212)"></rect>
-      <g id="Ellipse 2" filter="url(#filter0_d)">
-        <circle cx="178" cy="231" r="19" fill="white"></circle>
-        <circle cx="178" cy="231" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle" d="M170.492 234.693C170.189 234.313 170.203 233.77 170.525 233.407L180.16 222.528C180.58 222.054 181.328 222.084 181.708 222.59L185.386 227.487C185.672 227.867 185.65 228.395 185.336 228.751L175.817 239.498C175.405 239.963 174.673 239.944 174.286 239.458L170.492 234.693Z" fill="#9FFFB3"></path>
-    </g>
 
-{/*  */}
-          <g className="map-pointer" id="canada">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(229 82)"></rect>
-      <g id="Ellipse 2_2" filter="url(#filter1_d)">
-        <circle cx="248" cy="101" r="19" fill="white"></circle>
-        <circle cx="248" cy="101" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle_2" d="M240.492 104.693C240.189 104.313 240.203 103.77 240.525 103.407L250.16 92.5277C250.58 92.054 251.328 92.0842 251.708 92.5902L255.386 97.4869C255.672 97.8668 255.65 98.3949 255.336 98.7505L245.817 109.498C245.405 109.963 244.673 109.944 244.286 109.458L240.492 104.693Z" fill="#9FFFB3"></path>
-    </g>
+        {/* 
+            
+            
+         */}
+        {/* <g className="map-pointer" id="united-states">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(159 212)"></rect>
+          <g id="Ellipse 2" filter="url(#filter0_d)">
+            <circle cx="178" cy="231" r="19" fill="white"></circle>
+            <circle cx="178" cy="231" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle" d="M170.492 234.693C170.189 234.313 170.203 233.77 170.525 233.407L180.16 222.528C180.58 222.054 181.328 222.084 181.708 222.59L185.386 227.487C185.672 227.867 185.65 228.395 185.336 228.751L175.817 239.498C175.405 239.963 174.673 239.944 174.286 239.458L170.492 234.693Z" fill="#9FFFB3"></path>
+        </g> */}
+
+        {/*  */}
+        <g className="map-pointer" id="canada">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(229 82)"></rect>
+          <g id="Ellipse 2_2" filter="url(#filter1_d)">
+            <circle cx="248" cy="101" r="19" fill="white"></circle>
+            <circle cx="248" cy="101" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle_2" d="M240.492 104.693C240.189 104.313 240.203 103.77 240.525 103.407L250.16 92.5277C250.58 92.054 251.328 92.0842 251.708 92.5902L255.386 97.4869C255.672 97.8668 255.65 98.3949 255.336 98.7505L245.817 109.498C245.405 109.963 244.673 109.944 244.286 109.458L240.492 104.693Z" fill="#9FFFB3"></path>
+        </g>
 
         {/* Nigeria  */}
         <g className="map-pointer cursor-pointer group" id="nigeria">
@@ -130,11 +134,11 @@ const MapSvg = () => {
 
 
           <g id="Paystack logo">
-        <path d="M672.578 348H681.843C682.162 348 682.422 348.24 682.422 348.536V349.489C682.422 349.653 682.342 349.8 682.217 349.898C682.165 349.939 682.104 349.972 682.039 349.994C682.014 350.002 681.989 350.009 681.963 350.014C681.924 350.022 681.884 350.026 681.843 350.026H672.578C672.259 350.026 672 349.784 672 349.489V348.536C672 348.24 672.259 348 672.578 348Z" fill="#0BA4DB"></path>
-        <path d="M672.578 353.317H681.843C682.162 353.317 682.422 353.557 682.422 353.853V354.806C682.422 355.102 682.162 355.342 681.843 355.342H672.578C672.378 355.342 672.203 355.248 672.099 355.106C672.076 355.074 672.056 355.04 672.04 355.003C672.031 354.981 672.023 354.959 672.017 354.935C672.006 354.894 672 354.851 672 354.806V353.853C672 353.557 672.259 353.317 672.578 353.317Z" fill="#0BA4DB"></path>
-        <path d="M677.79 355.975H672.578C672.259 355.975 672 356.215 672 356.511V357.464C672 357.76 672.259 358 672.578 358H677.79C678.11 358 678.368 357.76 678.368 357.464V356.511C678.368 356.215 678.11 355.975 677.79 355.975Z" fill="#0BA4DB"></path>
-        <path d="M672.578 350.658H682.422C682.742 350.658 683 350.898 683 351.194V352.147C683 352.443 682.742 352.684 682.422 352.684H672.578C672.259 352.684 672 352.443 672 352.147V351.194C672 350.898 672.259 350.658 672.578 350.658Z" fill="#0BA4DB"></path>
-      </g>
+            <path d="M672.578 348H681.843C682.162 348 682.422 348.24 682.422 348.536V349.489C682.422 349.653 682.342 349.8 682.217 349.898C682.165 349.939 682.104 349.972 682.039 349.994C682.014 350.002 681.989 350.009 681.963 350.014C681.924 350.022 681.884 350.026 681.843 350.026H672.578C672.259 350.026 672 349.784 672 349.489V348.536C672 348.24 672.259 348 672.578 348Z" fill="#0BA4DB"></path>
+            <path d="M672.578 353.317H681.843C682.162 353.317 682.422 353.557 682.422 353.853V354.806C682.422 355.102 682.162 355.342 681.843 355.342H672.578C672.378 355.342 672.203 355.248 672.099 355.106C672.076 355.074 672.056 355.04 672.04 355.003C672.031 354.981 672.023 354.959 672.017 354.935C672.006 354.894 672 354.851 672 354.806V353.853C672 353.557 672.259 353.317 672.578 353.317Z" fill="#0BA4DB"></path>
+            <path d="M677.79 355.975H672.578C672.259 355.975 672 356.215 672 356.511V357.464C672 357.76 672.259 358 672.578 358H677.79C678.11 358 678.368 357.76 678.368 357.464V356.511C678.368 356.215 678.11 355.975 677.79 355.975Z" fill="#0BA4DB"></path>
+            <path d="M672.578 350.658H682.422C682.742 350.658 683 350.898 683 351.194V352.147C683 352.443 682.742 352.684 682.422 352.684H672.578C672.259 352.684 672 352.443 672 352.147V351.194C672 350.898 672.259 350.658 672.578 350.658Z" fill="#0BA4DB"></path>
+          </g>
 
           {/* Tooltip text (hidden by default, shows on hover) */}
           <text
@@ -142,7 +146,7 @@ const MapSvg = () => {
             y="350"
             fill="#000"
             fontSize="12"
-            className="opacity-0  group-hover:opacity-100 -translate-x-5 group-hover:translate-x-0 transition-all duration-300"
+            className="opacity-0  group-hover:opacity-100 -translate-y-5 -rotate-1 group-hover:rotate-0 group-hover:translate-y-0 transition-all duration-300"
           >
             Get Paid Locally
           </text>
@@ -153,9 +157,9 @@ const MapSvg = () => {
             fill="#3BB75E"
             fontSize="12"
             fontWeight={600}
-            className="opacity-0  group-hover:opacity-100 -translate-x-5 group-hover:translate-x-0 transition-all duration-300"
+            className="opacity-0  group-hover:opacity-100 -translate-y-5 -rotate-1 group-hover:rotate-0 group-hover:translate-y-0 transition-all duration-300"
           >
-           Lagos,Nigeria
+            Lagos,Nigeria
           </text>
 
           <text
@@ -163,7 +167,7 @@ const MapSvg = () => {
             y="365" // another line if needed
             fill="#000"
             fontSize="12"
-            className="opacity-0  group-hover:opacity-100 -translate-x-5 group-hover:translate-x-0 transition-all duration-300"
+            className="opacity-0  group-hover:opacity-100 -translate-y-5 -rotate-1 group-hover:rotate-0 group-hover:translate-y-0 transition-all duration-300"
           >
             Sell locally with four different
           </text>
@@ -172,82 +176,82 @@ const MapSvg = () => {
             y="380" // another line if needed
             fill="#000"
             fontSize="12"
-            className="opacity-0  group-hover:opacity-100 -translate-x-5 group-hover:translate-x-0 transition-all duration-300"
+            className="opacity-0  group-hover:opacity-100 -translate-y-5 -rotate-1 group-hover:rotate-0 group-hover:translate-y-0 transition-all duration-300"
           >
             payment methods
           </text>
         </g>
 
 
-          {/* Egypt */}
-          <g className="map-pointer" id="egypt">
-            <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(773 260)"></rect>
-            <g id="Ellipse 2_4" filter="url(#filter3_d)">
-              <circle cx="792" cy="279" r="19" fill="white"></circle>
-              <circle cx="792" cy="279" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-            </g>
-            <path id="Rectangle_3" d="M784.492 282.693C784.189 282.313 784.203 281.77 784.525 281.407L794.16 270.528C794.58 270.054 795.328 270.084 795.708 270.59L799.386 275.487C799.672 275.867 799.65 276.395 799.336 276.751L789.817 287.498C789.405 287.963 788.673 287.944 788.286 287.458L784.492 282.693Z" fill="#9FFFB3"></path>
+        {/* Egypt */}
+        <g className="map-pointer" id="egypt">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(773 260)"></rect>
+          <g id="Ellipse 2_4" filter="url(#filter3_d)">
+            <circle cx="792" cy="279" r="19" fill="white"></circle>
+            <circle cx="792" cy="279" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
           </g>
+          <path id="Rectangle_3" d="M784.492 282.693C784.189 282.313 784.203 281.77 784.525 281.407L794.16 270.528C794.58 270.054 795.328 270.084 795.708 270.59L799.386 275.487C799.672 275.867 799.65 276.395 799.336 276.751L789.817 287.498C789.405 287.963 788.673 287.944 788.286 287.458L784.492 282.693Z" fill="#9FFFB3"></path>
+        </g>
 
-{/*  */}
-          <g className="map-pointer" id="brazil">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(375 432)"></rect>
-      <g id="Ellipse 2_5" filter="url(#filter4_d)">
-        <circle cx="394" cy="451" r="19" fill="white"></circle>
-        <circle cx="394" cy="451" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle_4" d="M386.492 454.693C386.189 454.313 386.203 453.77 386.525 453.407L396.16 442.528C396.58 442.054 397.328 442.084 397.708 442.59L401.386 447.487C401.672 447.867 401.65 448.395 401.336 448.751L391.817 459.498C391.405 459.963 390.673 459.944 390.286 459.458L386.492 454.693Z" fill="#9FFFB3"></path>
-    </g>
+        {/*  */}
+        <g className="map-pointer" id="brazil">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(375 432)"></rect>
+          <g id="Ellipse 2_5" filter="url(#filter4_d)">
+            <circle cx="394" cy="451" r="19" fill="white"></circle>
+            <circle cx="394" cy="451" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle_4" d="M386.492 454.693C386.189 454.313 386.203 453.77 386.525 453.407L396.16 442.528C396.58 442.054 397.328 442.084 397.708 442.59L401.386 447.487C401.672 447.867 401.65 448.395 401.336 448.751L391.817 459.498C391.405 459.963 390.673 459.944 390.286 459.458L386.492 454.693Z" fill="#9FFFB3"></path>
+        </g>
 
-{/*  */}
-    <g className="map-pointer" id="south-africa">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(744 531)"></rect>
-      <g id="Ellipse 2_6" filter="url(#filter5_d)">
-        <circle cx="763" cy="550" r="19" fill="white"></circle>
-        <circle cx="763" cy="550" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle_5" d="M755.492 553.693C755.189 553.313 755.203 552.77 755.525 552.407L765.16 541.528C765.58 541.054 766.328 541.084 766.708 541.59L770.386 546.487C770.672 546.867 770.65 547.395 770.336 547.751L760.817 558.498C760.405 558.963 759.673 558.944 759.286 558.458L755.492 553.693Z" fill="#9FFFB3"></path>
-    </g>
+        {/*  */}
+        <g className="map-pointer" id="south-africa">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(744 531)"></rect>
+          <g id="Ellipse 2_6" filter="url(#filter5_d)">
+            <circle cx="763" cy="550" r="19" fill="white"></circle>
+            <circle cx="763" cy="550" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle_5" d="M755.492 553.693C755.189 553.313 755.203 552.77 755.525 552.407L765.16 541.528C765.58 541.054 766.328 541.084 766.708 541.59L770.386 546.487C770.672 546.867 770.65 547.395 770.336 547.751L760.817 558.498C760.405 558.963 759.673 558.944 759.286 558.458L755.492 553.693Z" fill="#9FFFB3"></path>
+        </g>
 
-{/*  */}
-    <g className="map-pointer" id="uk">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(674 161)"></rect>
-      <g id="Ellipse 2_7" filter="url(#filter6_d)">
-        <circle cx="693" cy="180" r="19" fill="white"></circle>
-        <circle cx="693" cy="180" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle_6" d="M685.492 183.693C685.189 183.313 685.203 182.77 685.525 182.407L695.16 171.528C695.58 171.054 696.328 171.084 696.708 171.59L700.386 176.487C700.672 176.867 700.65 177.395 700.336 177.751L690.817 188.498C690.405 188.963 689.673 188.944 689.286 188.458L685.492 183.693Z" fill="#9FFFB3"></path>
-    </g>
+        {/*  */}
+        {/* <g className="map-pointer" id="uk">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(674 161)"></rect>
+          <g id="Ellipse 2_7" filter="url(#filter6_d)">
+            <circle cx="693" cy="180" r="19" fill="white"></circle>
+            <circle cx="693" cy="180" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle_6" d="M685.492 183.693C685.189 183.313 685.203 182.77 685.525 182.407L695.16 171.528C695.58 171.054 696.328 171.084 696.708 171.59L700.386 176.487C700.672 176.867 700.65 177.395 700.336 177.751L690.817 188.498C690.405 188.963 689.673 188.944 689.286 188.458L685.492 183.693Z" fill="#9FFFB3"></path>
+        </g> */}
 
-{/*  */}
-    <g className="map-pointer" id="china">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(1084 201)"></rect>
-      <g id="Ellipse 2_8" filter="url(#filter7_d)">
-        <circle cx="1103" cy="220" r="19" fill="white"></circle>
-        <circle cx="1103" cy="220" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle_7" d="M1095.49 223.693C1095.19 223.313 1095.2 222.77 1095.53 222.407L1105.16 211.528C1105.58 211.054 1106.33 211.084 1106.71 211.59L1110.39 216.487C1110.67 216.867 1110.65 217.395 1110.34 217.751L1100.82 228.498C1100.4 228.963 1099.67 228.944 1099.29 228.458L1095.49 223.693Z" fill="#9FFFB3"></path>
-    </g>
+        {/*  */}
+        {/* <g className="map-pointer" id="china">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(1084 201)"></rect>
+          <g id="Ellipse 2_8" filter="url(#filter7_d)">
+            <circle cx="1103" cy="220" r="19" fill="white"></circle>
+            <circle cx="1103" cy="220" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle_7" d="M1095.49 223.693C1095.19 223.313 1095.2 222.77 1095.53 222.407L1105.16 211.528C1105.58 211.054 1106.33 211.084 1106.71 211.59L1110.39 216.487C1110.67 216.867 1110.65 217.395 1110.34 217.751L1100.82 228.498C1100.4 228.963 1099.67 228.944 1099.29 228.458L1095.49 223.693Z" fill="#9FFFB3"></path>
+        </g> */}
 
-{/*  */}
-    <g className="map-pointer" id="india">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(1014 271)"></rect>
-      <g id="Ellipse 2_9" filter="url(#filter8_d)">
-        <circle cx="1033" cy="290" r="19" fill="white"></circle>
-        <circle cx="1033" cy="290" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle_8" d="M1025.49 293.693C1025.19 293.313 1025.2 292.77 1025.53 292.407L1035.16 281.528C1035.58 281.054 1036.33 281.084 1036.71 281.59L1040.39 286.487C1040.67 286.867 1040.65 287.395 1040.34 287.751L1030.82 298.498C1030.4 298.963 1029.67 298.944 1029.29 298.458L1025.49 293.693Z" fill="#9FFFB3"></path>
-    </g>
+        {/*  */}
+        {/* <g className="map-pointer" id="india">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(1014 271)"></rect>
+          <g id="Ellipse 2_9" filter="url(#filter8_d)">
+            <circle cx="1033" cy="290" r="19" fill="white"></circle>
+            <circle cx="1033" cy="290" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle_8" d="M1025.49 293.693C1025.19 293.313 1025.2 292.77 1025.53 292.407L1035.16 281.528C1035.58 281.054 1036.33 281.084 1036.71 281.59L1040.39 286.487C1040.67 286.867 1040.65 287.395 1040.34 287.751L1030.82 298.498C1030.4 298.963 1029.67 298.944 1029.29 298.458L1025.49 293.693Z" fill="#9FFFB3"></path>
+        </g> */}
 
-{/*  */}
-    <g className="map-pointer" id="norway">
-      <rect width="38" height="38" fill="black" fill-opacity="0" transform="translate(754 41)"></rect>
-      <g id="Ellipse 2_10" filter="url(#filter9_d)">
-        <circle cx="773" cy="60" r="19" fill="white"></circle>
-        <circle cx="773" cy="60" r="18" stroke="#CBF1D1" stroke-width="2"></circle>
-      </g>
-      <path id="Rectangle_9" d="M765.492 63.6927C765.189 63.3127 765.203 62.7704 765.525 62.4068L775.16 51.5277C775.58 51.054 776.328 51.0842 776.708 51.5902L780.386 56.4869C780.672 56.8668 780.65 57.3949 780.336 57.7505L770.817 68.4983C770.405 68.9635 769.673 68.9443 769.286 68.4582L765.492 63.6927Z" fill="#9FFFB3"></path>
-    </g>
+        {/*  */}
+        <g className="map-pointer" id="norway">
+          <rect width="38" height="38" fill="black" fillOpacity="0" transform="translate(754 41)"></rect>
+          <g id="Ellipse 2_10" filter="url(#filter9_d)">
+            <circle cx="773" cy="60" r="19" fill="white"></circle>
+            <circle cx="773" cy="60" r="18" stroke="#CBF1D1" strokeWidth="2"></circle>
+          </g>
+          <path id="Rectangle_9" d="M765.492 63.6927C765.189 63.3127 765.203 62.7704 765.525 62.4068L775.16 51.5277C775.58 51.054 776.328 51.0842 776.708 51.5902L780.386 56.4869C780.672 56.8668 780.65 57.3949 780.336 57.7505L770.817 68.4983C770.405 68.9635 769.673 68.9443 769.286 68.4582L765.492 63.6927Z" fill="#9FFFB3"></path>
+        </g>
       </g>
       <defs>
         <filter

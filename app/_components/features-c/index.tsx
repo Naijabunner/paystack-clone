@@ -118,8 +118,8 @@ const FeaturesC = () => {
   return (
     <section className="py-[150px] max-[580px]:py-[100px]">
       <div className="container max-w-[850px] min-[1260px]:max-w-310 max-[580px]:px-5 px mx-auto w-full text-secondary space-y-[50px]">
-        <header className=" max-w-[640px] space-y-5">
-          <h2 className=" max-[580px]:leading-10 text-[clamp(33px,2.5vw,45px)]  min-[580px]:text-h-2 font-bold leading-12 font-segoe-ui ">
+        <header className=" max-w-[640px] space-y-2">
+          <h2 className=" text-[clamp(33px,3vw,45px)] font-extrabold font-boing leading-tight ">
             Powering growth for amazing businesses
           </h2>
           <p className=" text-[clamp(16px,1.3vw,20px)] ">

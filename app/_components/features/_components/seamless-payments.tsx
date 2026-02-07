@@ -23,7 +23,7 @@ const SeamlessPayments = () => {
             </div>
             <div className="right-section flex-1 flex flex-col gap-y-20 max-w-125 ">
                 <div className="top space-y-4.75">
-                    <h3 className=" text-[clamp(26px,2.5vw,36px)] leading-7 font-bold  min-[580px]:leading-11 pb-1.25">
+                    <h3 className=" text-[clamp(26px,2.5vw,36px)] font-boing font-extrabold leading-7   min-[580px]:leading-11 pb-1.25">
                         Delight customers with a seamless payments experience
                     </h3>
                     <p className=" text-[clamp(16px,1.5vw,19px)] leading-normal ">
@@ -39,7 +39,7 @@ const SeamlessPayments = () => {
                     </ul>
                 </div>
                 <div className=" space-y-4.75 bottom">
-                    <p className=" text-[clamp(26px,2.5vw,36px)] leading-7 font-bold  min-[580px]:leading-11 pb-1.25 ">
+                    <p className=" text-[clamp(26px,2.5vw,36px)] font-boing font-extrabold leading-7  min-[580px]:leading-11 pb-1.25 ">
                         Enjoy phenomenal transaction success rates
                     </p>
                     <p className=" text-[clamp(16px,1.5vw,19px)] leading-normal ">

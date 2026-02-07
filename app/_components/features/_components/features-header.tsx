@@ -2,11 +2,11 @@ import React from "react";
 
 const FeaturesHeader = () => {
     return (
-        <header className=" space-y-5 max-w-5xl min-[580px]:w-[60%]">
-            <h2 className="text-h-3 max-[580px]:leading-10  min-[580px]:text-h-2 font-bold leading-12  ">
+        <header className=" space-y-3 max-w-5xl min-[580px]:w-[60%]">
+            <h2 className=" text-[clamp(33px,3vw,45px)] font-extrabold font-boing leading-tight  ">
                 Simple, easy payments
             </h2>
-            <span className=" text-h-6 max-[580px]:text-body-l ">{`Building a business is hard. Getting paid shouldn't be.`}</span>
+            <span className="text-[clamp(16px,1.5vw,20px)] ">{`Building a business is hard. Getting paid shouldn't be.`}</span>
         </header>
     );
 };

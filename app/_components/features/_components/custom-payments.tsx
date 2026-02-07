@@ -33,8 +33,8 @@ const CustomPayments = () => {
                     <LinkUi href="."> Api Refrence</LinkUi>
                 </div>
             </div>
-            <div className="right-section flex-1 ">
-                <Image src="https://assets.paystack.com/assets/img/content/_400x357_crop_center-center_82_line/Robust-Suite-of-APIs-Opt.png" alt="animated" width={400} height={357} />
+            <div className="right-section flex-1  w-full ">
+                <Image src="https://assets.paystack.com/assets/img/content/_400x357_crop_center-center_82_line/Robust-Suite-of-APIs-Opt.png" alt="animated" width={400} height={357} className="w-full h-full object-cover" />
             </div>
         </div>
     );
