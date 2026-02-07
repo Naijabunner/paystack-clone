@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Paystack Clone - Premium Fintech Interface
 
-## Getting Started
+A high-performance, visually stunning landing page clone of Paystack, built with Next.js 15 and a focus on rich aesthetics, smooth animations, and modular architecture.
 
-First, run the development server:
+## 🚀 Built With
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Emotion JS](https://emotion.sh/) (Styled Components & Keyframes)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Components**: [Radix UI](https://www.radix-ui.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+
+## ✨ Key Features
+
+- **Premium Design System**: Implements a custom design system with `Boing` and `Graphik` typography, vibrant color palettes, and balanced whitespace.
+- **Responsive Navigation**:
+  - Dynamic top navigation with smooth interactions.
+  - Mobile-first footer featuring a custom-built accordion for link groups.
+- **Interactive Map Section**: A custom SVG world map with floating animations and interactive pointers for global presence.
+- **Modular Hero Section**: Highly organized component structure with staggered entry animations for a seamless user experience.
+- **High-Performance Image Optimization**: Leverages `next/image` for responsive, fast-loading assets.
+
+## 📂 Project Structure
+
+```text
+├── app/
+│   ├── _components/         # Feature-specific modular components
+│   │   ├── footer/          # Responsive footer with accordion logic
+│   │   ├── hero-section/    # Reusable hero layouts & animation files
+│   │   └── features/        # Section-based feature showcases
+│   ├── globals.css          # Tailwind CSS layer configurations
+│   └── layout.tsx           # Global font loading and layout assembly
+├── components/
+│   ├── ui/                  # Reusable atom-level UI components (shadcn-inspired)
+│   └── map-svg.tsx          # Custom interactive world map SVG
+├── public/
+│   └── assets/              # Premium fonts and static assets
+└── package.json             # Core dependencies and scripts
 ```
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 20+
+- npm / yarn / pnpm
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone [repository-url]
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design Philosophy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project prioritizes **Visual Excellence**. It avoids generic layouts in favor of curated gradients, micro-animations, and custom SVG work. The typography (Boing for headings, Graphik for body) is tuned for maximum readability and a premium fintech feel.
 
-## Learn More
+## 📝 License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for educational purposes as a demonstration of modern web engineering and design capabilities.
